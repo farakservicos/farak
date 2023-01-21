@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(61, 24, 24);
+    overflow-x: hidden;
+    position: relative;
+}
+.logo{
+    width: 50px;
+    padding: 8px;
+}
+
+.fnd{
+    background-image: url('../pexels-pavel-danilyuk-8112203.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: 110vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.container{
+    text-align: center;
+    padding: 8px;
+    
+}
+.container form button{
+    padding: 9px;
+    margin: 10px;
+}
+
+nav-item{
+    align-items: center;
+}
+footer {
+   color: white;
+   text-align: center;
+
+}
+ul > li{
+    text-align: center;
+}
+ ul li{
+   list-style: none;
+}
+ul li a{
+    color: black;
+}
+ul li a:hover{
+    color: white;
+}
+
+.icons{
+    width: 60px;
+    padding: 10px;
+    
+}
+.botao-troca-pag{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: wheat;
+
+}
+.botao-troca-pag:hover{
+    text-decoration: none;
+    color: red;
+}
+a{
+    margin: 2px;
+}
+h4{
+    padding: 3px;
+}
