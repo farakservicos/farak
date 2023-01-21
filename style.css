@@ -14,7 +14,7 @@ body{
 }
 
 .fnd{
-    background-image: url('../pexels-pavel-danilyuk-8112203.jpg');
+    background-image: url('pexels-pavel-danilyuk-8112203.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,7 +24,6 @@ body{
     width: 100vw;
     position: absolute;
     bottom: 0;
-    color: black;
     left: 0;
     overflow: auto;
     right: 0;
