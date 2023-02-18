@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(61, 24, 24);
@@ -20,7 +21,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
-    height: 110vh;
+    height:140vh;
     width: 100vw;
     position: absolute;
     bottom: 0;
@@ -82,4 +83,10 @@ a{
 }
 h4{
     padding: 3px;
+}
+
+
+.btn-lg{
+    width: 98%;
+    margin-left: 1.1%;
 }
