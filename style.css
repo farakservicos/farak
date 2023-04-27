@@ -4,32 +4,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+/* body{
     background-color: rgb(61, 24, 24);
     overflow-x: hidden;
     position: relative;
-}
+} */
 .logo{
     width: 50px;
     padding: 8px;
 }
 
-.fnd{
+body{
     background-image: url('pexels-pavel-danilyuk-8112203.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-    height:140vh;
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    right: 0;
-    top: 0;
-    z-index: -1;
+    background-size: auto;
+   
+}
+.fnd{
+    display: none;
 }
 .container{
     text-align: center;
